@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/abz2-copiar-scaled.jpg), no-repeat center center;
+    background-size: cover;
+    height: 92vh
+  }
+
+a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.imgnavbar {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    top: 7px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #65451F;
+    height: 8vh;
+  }
+
+.divnavbarlogo {
+    top: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.divnavbar {
+    border: solid 1px #ffffff;
+    margin-left: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: auto;
+    padding: 5px;
+  }
+
+.container {
+    width: 500px;
+    height: 700px;
+    flex-shrink: 0;
+    background-color: rgba(101, 69, 31, 0.99);
+    fill: rgba(101, 69, 31, 0.99);
+    stroke-width: 1px;
+    stroke: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.formLogin {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    color: white;
+    font-style: inherit
+}
+
+.labelemail,
+.labelsenha {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    position: relative;
+    right: 165px;
+}
+
+
+.formLogin input[type="text"],
+.formLogin input[type="password"] {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 350px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#loginUser {
+    position: relative;
+    top: 10px;
+    width: 100px;
+    font-size: 18px;
+}
+
+.pacesso {
+    padding-top: 15px;
+}

@@ -1,0 +1,8 @@
+react(front-end)
+- [ ] 
+- [ ] aplicar html no react
+- [ ] manipular o dom das paginas
+- [ ] manipular e validar dados
+- [ ] padronizar 
+
+npm run dev
