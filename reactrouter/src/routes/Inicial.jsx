@@ -1,7 +1,6 @@
 import navalha from "../components/assets/icons/navalha.png";
 import bell from "../components/assets/icons/sino.svg"
 import iconuser from "../components/assets/icons/iconuser.svg"
-import "../components/assets/css/Login.css";
 import "../components/assets/css/inicial.css"
 import { Link } from "react-router-dom";
 
@@ -11,15 +10,20 @@ const Inicial = () => {
 <>
       <header>
         <nav className="navbar">
-          <img src={navalha} alt="logo" id="png" />
-          
+          <Link to="/inicial"> 
+          <img src={navalha} alt="logo" id="png" />     
+            </Link>
           <section id="botao">
+          <Link to="/registrarhorario">
             <button type="button" id="bcad">
               <p id="cadletra">Cadastro</p>
             </button>
+            </Link>
+            <Link to="/registroBarbeiro">
             <button type="button" id="brel">
               <p id="relletra">Relatório</p>
             </button>
+            </Link>
           </section>
 
           <div className="cantodireito">
@@ -44,9 +48,11 @@ const Inicial = () => {
             <tbody></tbody>
             
             <div className="botao-cadastro">
+              <Link to="/registrarhorario">
             <button type="button" className="bcad-inferior">
               Cadastrar Horário
             </button>
+              </Link>
           </div>
 
           </table>

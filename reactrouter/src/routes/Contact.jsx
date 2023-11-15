@@ -1,4 +1,4 @@
-import Reacts from "react";
+
 
 const Contact = () => {
     return (

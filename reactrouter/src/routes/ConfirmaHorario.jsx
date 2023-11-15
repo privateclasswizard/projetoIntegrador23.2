@@ -4,22 +4,27 @@ import bell from "../components/assets/icons/sino.svg"
 import iconuser from "../components/assets/icons/iconuser.svg"
 import "../components/assets/css/Login.css";
 import "../components/assets/css/inicial.css"
+import { Link } from "react-router-dom";
 
 function ConfirmarHorario() {
   return (
     <>
       <header>
-        <nav className="navbar">
-          <img src={navalha} alt="logo" id="svg" />
-          
-
+      <nav className="navbar">
+          <Link to="/inicial"> 
+          <img src={navalha} alt="logo" id="png" />     
+            </Link>
           <section id="botao">
+          <Link to="/registrarhorario">
             <button type="button" id="bcad">
               <p id="cadletra">Cadastro</p>
             </button>
+            </Link>
+            <Link to="/registroBarbeiro">
             <button type="button" id="brel">
               <p id="relletra">Relatório</p>
             </button>
+            </Link>
           </section>
 
           <div className="cantodireito">
