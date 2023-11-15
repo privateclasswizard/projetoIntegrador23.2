@@ -1,4 +1,3 @@
-import Reacts from "react";
 import navalha from '../components/assets/icons/navalha.svg'
 import { Link } from "react-router-dom";
 import "../components/assets/css/CadastroUser.css";

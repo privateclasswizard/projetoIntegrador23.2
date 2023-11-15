@@ -1,8 +1,13 @@
-import Reacts from "react";
+import '../components/assets/css/RegistrarHorario.css'
+import navalha from "../components/assets/icons/navalha.png";
+import bell from "../components/assets/icons/sino.svg"
+import iconuser from "../components/assets/icons/iconuser.svg"
+import "../components/assets/css/Login.css";
+import "../components/assets/css/inicial.css"
 
-const RegistroHorario = () => {
-    return (
-        <>
+function ConfirmarHorario() {
+  return (
+    <>
       <header>
         <nav className="navbar">
           <img src={navalha} alt="logo" id="svg" />
@@ -25,42 +30,44 @@ const RegistroHorario = () => {
       </header>
       <body>
         <div className="container">
+          <div className='FormElements'> 
           <form className="formcadastro">
-            <div class="nameclient">
-              <label for="nclient" id="client">Cliente: </label>
+            <div className="nameclient">
+              <label htmlFor="nclient" id="client">Cliente: </label>
               <input type="text" id="nclient" name="nclient" />
             </div>
-            <div class="numberclient">
-              <label for="telclient" id="phoneclient">Celular: </label>
+            <div className="numberclient">
+              <label htmlFor="telclient" id="phoneclient">Celular: </label>
               <input type="tel" id="telclient" />
             </div>
-            <div class="barber">
-              <label for="barbername" id="barberman">Barbeiro: </label>
+            <div className="barber">
+              <label htmlFor="barbername" id="barberman">Barbeiro: </label>
               <input type="text" id="barbername" name="barbername" />
             </div>
-            <div class="dateservice">
-              <label for="dateclient" id="servicedate">Data: </label>
+            <div className="dateservice">
+              <label htmlFor="dateclient" id="servicedate">Data: </label>
               <input type="date" name="datereserveclient" id="datereserveclient" />
             </div>
-            <div class="hour">
-              <label for="hourclient" id="hourservice">Horário: </label>
+            <div className="hour">
+              <label htmlFor="hourclient" id="hourservice">Horário: </label>
               <input type="time" name="timeclient" id="timeclient" />
             </div>
-            <div class="locale">
-              <label for="localebarber" id="localeforservice">Barbearia: </label>
-              <select name="select">
+            <div className="locale">
+              <label htmlFor="localebarber" id="localeforservice">Barbearia: </label>
+              <select name="select" id='localservice'>
                 <option value="flocale">Vila Nova</option>
               </select>
             </div>
-            <div class="botoes">
+            <div className="botoes">
               <button type="button" id="button-save">Salvar</button>
               <button type="button" id="button-delete">Excluir</button>
             </div>
           </form>
+          </div>
         </div>
       </body>
     </>
-    )
+  );
 }
 
-export default RegistroHorario
+export default ConfirmarHorario;

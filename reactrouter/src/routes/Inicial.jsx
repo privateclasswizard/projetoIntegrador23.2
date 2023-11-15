@@ -42,13 +42,16 @@ const Inicial = () => {
               </tr>
             </thead>
             <tbody></tbody>
-          </table>
-
-          <div className="botao-cadastro">
-            <button type="button" id="bcad-inferior">
+            
+            <div className="botao-cadastro">
+            <button type="button" className="bcad-inferior">
               Cadastrar Horário
             </button>
           </div>
+
+          </table>
+
+
         </div>
       </body>
     </>

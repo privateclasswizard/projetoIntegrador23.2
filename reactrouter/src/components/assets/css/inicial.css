@@ -125,18 +125,30 @@ header {
   font-size: 25px;
 }
 
-#bcad-inferior {
+.botao-cadastro {
+  display: flex;
+  margin-top: 600px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 280px;
+}
 
-  
+.bcad-inferior {
+  justify-content: center;
+  display: flex;
   width: 300px;
   height: 50px;
-  margin-top: 630px;
-  margin-right: 100px;
-  
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  border-color: black;
+  border: 2px solid;
 }
 
 body {
-  background-image: url(img/tesouras.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/abz2-copiar-scaled.jpg), no-repeat center center;
   background-size: cover;
+  height: 92vh
 }
