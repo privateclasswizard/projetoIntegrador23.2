@@ -6,14 +6,14 @@ import './index.css'
 
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
-import Home from './routes/Home.jsx'
-import Contact from './routes/Contact.jsx'
-import Inicial from './routes/Inicial.jsx'
-import Login from './routes/Login.jsx'
-import RegistroUsuario from './routes/RegistroUsuario.jsx'
-import RegistroHorario from './routes/RegistroHorario.jsx'
-import RegistroBarbeiro from './routes/RegistroBarbeiro.jsx'
-import ConfirmaHorario from './routes/ConfirmaHorario.jsx'
+import Home from './routes//Home/Home.jsx'
+import Contact from './routes/Contact/Contact.jsx'
+import Inicial from './routes/Inicial/Inicial.jsx'
+import Login from './routes/Login/Login.jsx'
+import RegistroUsuario from './routes/RegistroUsuario/RegistroUsuario.jsx'
+import RegistroHorario from './routes/RegistroHorario/RegistroHorario.jsx'
+import RegistroBarbeiro from './routes/RegistroBarbeiro/RegistroBarbeiro.jsx'
+import ConfirmaHorario from './routes/CorfirmaHorario/ConfirmaHorario.jsx' 
 
 const router = createBrowserRouter([
   {path:"/", element:<Home />},
@@ -28,7 +28,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <App /> */}
     <RouterProvider router={router}/>
   </React.StrictMode>,
 )

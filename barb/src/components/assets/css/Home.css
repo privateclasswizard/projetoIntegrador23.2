@@ -1,0 +1,14 @@
+.containerHome {
+  background: url("../img/abz2-copiar-scaled.jpg") no-repeat center center;
+  background-size: cover;
+  
+
+}
+
+.section1Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}

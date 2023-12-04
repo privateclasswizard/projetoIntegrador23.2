@@ -1,0 +1,21 @@
+.containerLogin {
+  background: url("../img/abz2-copiar-scaled.jpg") no-repeat center center;
+  background-size: cover;
+
+
+}
+
+.section1Login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.formLogin{
+  padding: 10px;
+  background-color: #835927;
+  border-radius: 5px;
+}
+
